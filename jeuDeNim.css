@@ -1,0 +1,21 @@
+.allBatoons{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.baton{
+    height: 50vh;
+    width: 50px;
+    background-color: purple;
+}
+.baton:hover{
+    filter: grayscale(0.5);
+}
+body{
+    font-family: "Segoe UI";
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
