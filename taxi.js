@@ -62,7 +62,7 @@ while (feu > 0){
     console.log("Et il vous reste encore " + perso.mh + " points de santé mentale 😈")
     console.log("=========================================================")
     if (perso.mh == 0){
-        img.src = "../img/wejdene.gif"
+        img.src = "img/wejdene.gif"
         console.log("Vous avez explosé 💥💥")
         result.innerHTML = "<span style='color: orange '>Vous avez explosé 💥💥</span>"
         break
@@ -70,7 +70,7 @@ while (feu > 0){
 }
 
 if (perso.mh > 0){
-    img.src = "../img/congrats.gif"
+    img.src = "img/congrats.gif"
     console.log("WAW, t'as survécu à la déesse Wejdene !")
     result.innerHTML = "<span style='color: orange '>WAW, t'as survécu à la déesse Wejdene !</span>"
 }

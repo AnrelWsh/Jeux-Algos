@@ -92,25 +92,25 @@ if (tueur.hp <= 0){
     console.log('|| Le tueur est mort! 😱🥵 ||')
     console.log("==============================")
     result.innerHTML = "<span style='color: orange '>Le tueur est mort! 😱🥵</span>"
-    img.src = "../img/coffin.gif"
+    img.src = "img/coffin.gif"
 } else if (survivors.length == 0 && tueur.hp == 100){
     console.log("=========================================================================================")
     console.log("|| La team est morte sans donner un coup au tueur... ce fut un massacre... 😵🔪😵🔪😵||")
     console.log("=========================================================================================")
     result.innerHTML = "<span style='color: orange '>La team est morte sans donner un coup au tueur... ce fut un massacre... 😵🔪😵🔪😵</span>"
-    img.src = "../img/killer.gif"
+    img.src = "img/killer.gif"
 } else if (survivors.length == 0 && tueur.hp <= 0){
     console.log("========================================================================================================")
     console.log("|| La team est morte mais a réussi à donner un coup fatal au tueur... quelle boucherie... 🔪🩸🔪🩸🔪||")
     console.log("========================================================================================================")
     result.innerHTML = "<span style='color: orange '>La team est morte mais a réussi à donner un coup fatal au tueur... quelle boucherie... 🔪🩸🔪🩸🔪</span>"
-    img.src = "../img/massacre.gif"
+    img.src = "img/massacre.gif"
 } else {
     console.log("===================================")
     console.log("|| La team est morte 😵🪦😵🪦😵||")
     console.log("===================================")
     result.innerHTML = "<span style='color: orange '>La team est morte 😵🪦😵🪦😵</span>"
-    img.src = "../img/cemetary.gif"
+    img.src = "img/cemetary.gif"
 }
 
  
